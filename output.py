@@ -19,14 +19,14 @@ Train data stats:
 4542  Salman Bhai aap cinta mat karo apki movie ham ...  positive
 7209  mene socha tha ki aap humesa such bolte he aur...  negative
 4150  Aap ko letter b likhy hain shayd ap tk puhnch ...   neutral
-3435  #msgyouthicon its a best efrt to show better p...  positive
+3435  msgyouthicon its a best efrt to show better p...  positive
 
 
 First 10 rows:
                                                 text  category
 0                                Han wo bhi baat hai   neutral
-1  its not #unionbudget2015 its #buredinkabudget ...  negative
-2  public movie review :- shamitabh #shamitabh #a...   neutral
+1  its not unionbudget2015 its buredinkabudget ...  negative
+2  public movie review :- shamitabh shamitabh a...   neutral
 3                                                 ok   neutral
 4  salmaan khan tumhare naam k pichey khan accha ...  negative
 5  bhaijaan thagaye hoghaey itne saare comments d...   neutral
@@ -48,7 +48,7 @@ Overall data:
 <class 'pandas.core.frame.DataFrame'>
 RangeIndex: 10080 entries, 0 to 10079
 Data columns (total 2 columns):      
- #   Column    Non-Null Count  Dtype 
+ \#   Column    Non-Null Count  Dtype 
 ---  ------    --------------  ----- 
  0   text      10079 non-null  object
  1   category  10080 non-null  object
@@ -91,13 +91,13 @@ First 10 rows:
                                                 text  category
 0            Kuch nhi launde .. Bas thodi bahut holi   neutral
 1  intermission fc took a big step towards the ti...  positive
-2  @msgthefilm @gurmeetramrahim #msgyouthicon we ...   neutral
+2  @msgthefilm @gurmeetramrahim msgyouthicon we ...   neutral
 3  ha ha ha ha ha ha ha . . . . . :d ye mast tha ...  positive
 4          yaar woh toh bahut importantg courseg hai   neutral
 5  @someUSER 1win from the superbowl ! game tomor...  positive
 6                                    apko ana padega   neutral
 7  beta agr aisi hi achi life chahta hai to ladki...  negative
-8  @someUSER @someUSER #surface the florida mall ...  positive
+8  @someUSER @someUSER surface the florida mall ...  positive
 9                               Hloo salu bhai......   neutral
 
 
@@ -113,7 +113,7 @@ Overall data:
 <class 'pandas.core.frame.DataFrame'>
 RangeIndex: 1261 entries, 0 to 1260
 Data columns (total 2 columns):
- #   Column    Non-Null Count  Dtype
+ \#   Column    Non-Null Count  Dtype
 ---  ------    --------------  -----
  0   text      1261 non-null   object
  1   category  1261 non-null   object
